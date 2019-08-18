@@ -124,9 +124,12 @@ html {
 @media only screen and (min-width: 1919px) {
     .hero-section img {
         margin-top: 10%;
-        width: 1000px;
+        width: 850px;
         height: 100%;
         border: solid 5px #000;   
+    }
+    .hero-text {
+        font-size: 48px
     }
 }
 
