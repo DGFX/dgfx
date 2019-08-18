@@ -121,6 +121,15 @@ html {
     background-color: #555; /* Add a dark-grey background on hover */
   }
 
+@media only screen and (min-width: 1919px) {
+    .hero-section img {
+        margin-top: 10%;
+        width: 1000px;
+        height: 100%;
+        border: solid 5px #000;   
+    }
+}
+
 @media only screen and (max-width: 922px) {
     .hero-text {
         margin-top: 40%;
