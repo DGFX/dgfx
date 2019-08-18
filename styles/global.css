@@ -260,6 +260,11 @@ html {
     .hero-text:before {
         margin-top: 15%;
     }
+    .contact-section:before {
+        margin-top: 12%;
+        margin-left: 30%;
+        width: 40%;
+    }
 }
 
 @media only screen and (max-width: 922px) {
@@ -280,6 +285,11 @@ html {
     .hero-text:before {
         margin-top: 17%;
     }
+    .contact-section:before {
+        margin-top: 15%;
+        margin-left: 30%;
+        width: 40%;
+    }
 }
 
 @media only screen and (max-width: 756px) {
@@ -289,6 +299,11 @@ html {
         letter-spacing: 1.3px;
         margin-right: -5px;
         /*display: block;*/
+    }
+    .contact-section:before {
+        margin-top: 15%;
+        margin-left: 30%;
+        width: 40%;
     }
 
     .navbar {
@@ -313,6 +328,12 @@ html {
         width: 22%;
     }
 
+    .contact-section:before {
+        margin-top: 15%;
+        margin-left: 30%;
+        width: 40%;
+    }
+
     .hero-text:before {
         margin-top: 26%;
         width: 60%;
@@ -330,4 +351,9 @@ html {
     .hero-text:before {
         margin-top: 35%;
     } 
+    .contact-section:before {
+        margin-top: 20%;
+        margin-left: 30%;
+        width: 40%;
+    }
 }

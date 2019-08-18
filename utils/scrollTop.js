@@ -19,9 +19,9 @@ $(function() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     })
     $("#musicBtn").click(function(){
-        $("html, body").animate({ scrollTop: $(".music-section").position().top }, 250);
+        $("html, body").animate({ scrollTop: $(".music-section").position().top }, 450);
       });
       $("#contactBtn").click(function(){
-        $("html, body").animate({ scrollTop: $(".contact-section").position().top }, 250);
+        $("html, body").animate({ scrollTop: $(".contact-icons").position().top }, 450);
       });
 })
