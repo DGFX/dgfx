@@ -1,0 +1,147 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    font-family: 'Lexend Mega', sans-serif;
+    font-size: 20px;
+    letter-spacing: -2px;
+    opacity: 1;
+}
+
+.navbar-bg {
+    background: #fff;
+    opacity: 0.9;
+}
+
+.navbar-nav > li > a {
+    color: #000;
+    letter-spacing: 0.2px;
+}
+
+.navbar-nav > li > a:hover {
+    color: rgb(231, 74, 74);
+}
+
+.navbar-brand {
+    letter-spacing: 1px;
+    font-size: 21px;
+    color: #000;
+}
+
+.navbar-brand:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.hero-section img {
+    margin-top: 10%;
+    width: 500px;
+    height: 100%;
+    border: solid 5px #000;   
+}
+
+.hero-text {
+    margin-top: 30%;
+    font-family: 'Lexend Mega', sans-serif;
+    margin-right: 5%;
+    position: relative;
+}
+
+.hero-text:after {
+    margin-top: 7%;
+    margin-left: 4.5%;
+    content:" ";
+    position: absolute;
+    height: 25px;
+    opacity: 0.9;
+    left: -2px;
+    right: 20px;
+    z-index: -3;
+    width: 40%;
+    background: #4953f5;
+}
+
+#span-hero{
+    color: #000;
+    font-weight: 900;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-evenly;
+    height: 90vh;
+}
+
+.music-section {
+    margin-top: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.music-section img {
+    margin-top: 5%;
+    border: solid 3px #000;
+    width: 310px;
+    height: 310px;
+}
+
+.music-section img:nth-child(1)::after {
+    margin-top: 7%;
+    margin-left: 4.5%;
+    content:" ";
+    position: absolute;
+    height: 25px;
+    opacity: 0.9;
+    left: -2px;
+    right: 20px;
+    z-index: -3;
+    width: 40%;
+    background: #4953f5;;
+
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #4953f5; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+@media only screen and (max-width: 922px) {
+    .hero-text {
+        margin-top: 40%;
+    }
+    .music-section{
+        margin-top: 10%;
+    }
+    .hero-section img {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 756px) {
+    .hero-text {
+        margin-top: 55%;
+    }
+
+    .navbar-brand{
+        display: block;
+    }
+    .navbar {
+        background: #fff;
+    }
+  }
