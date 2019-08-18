@@ -1,3 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -9,17 +20,31 @@ html {
     opacity: 1;
 }
 
+#bio {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin-left: 0%;
+}
+
+#bio p {
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    opacity: 0.7;
+    color: #4953f5;
+}
+
 .navbar-bg {
     background: #fff;
     opacity: 0.9;
 }
 
-.navbar-nav > li > a {
+.navbar-nav>li>a {
     color: #000;
     letter-spacing: 0.2px;
 }
 
-.navbar-nav > li > a:hover {
+.navbar-nav>li>a:hover {
     color: rgb(231, 74, 74);
 }
 
@@ -34,27 +59,47 @@ html {
     cursor: pointer;
 }
 
-.hero-section img {
+.hero-bio {
+    width: 100%;
     margin-top: 10%;
-    width: 500px;
+}
+
+.hero-section img {
+    /*margin-top: 1%;*/
+    width: 100%;
     height: 100%;
-    border: solid 5px #000;   
+    border: solid 5px #000;
 }
 
 .hero-text {
-    margin-top: 30%;
+    margin-top: 5%;
     font-family: 'Lexend Mega', sans-serif;
-    margin-right: 5%;
+    margin-right: 0%;
     position: relative;
 }
 
 .hero-text:after {
-    margin-top: 7%;
-    margin-left: 4.5%;
-    content:" ";
+    margin-top: -3%;
+    margin-left: 46%;
+    content: " ";
     position: absolute;
-    height: 25px;
+    height: 35px;
     opacity: 0.9;
+    left: -2px;
+    right: 20px;
+    z-index: -3;
+    width: 10%;
+    background: #4953f5;
+}
+
+.hero-text:before {
+    margin-top: 8.5%;
+    margin-left: 30%;
+    border-radius: 55%;
+    content: " ";
+    position: absolute;
+    height: 5px;
+    opacity: 0.4;
     left: -2px;
     right: 20px;
     z-index: -3;
@@ -62,98 +107,206 @@ html {
     background: #4953f5;
 }
 
-#span-hero{
+.contact-icons {
+    width: 30px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    height: 100px;
+}
+
+.contact-icons a {
+    text-decoration: none;
+    color: rgb(76, 76, 204);
+}
+.contact-section:before {
+    margin-top: 8.5%;
+    margin-left: 30%;
+    border-radius: 55%;
+    content: " ";
+    position: absolute;
+    height: 5px;
+    opacity: 0.4;
+    left: -2px;
+    right: 20px;
+    z-index: -3;
+    width: 40%;
+    background: #4953f5;
+}
+
+.contact-icons a:hover{
+    text-decoration: none;
+    color: rgb(231, 74, 74);
+}
+
+#span-hero {
     color: #000;
     font-weight: 900;
 }
 
 .hero-section {
-    display: flex;
-    justify-content: space-evenly;
-    height: 90vh;
+    /*    display: flex;
+    justify-content: space-evenly; */
+    /* height: 90vh; */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero-section img {
+    width: 100%;
+    height: 100%;
 }
 
 .music-section {
-    margin-top: 300px;
+    margin-top: 4%;
     margin-right: auto;
     margin-left: auto;
 }
 
 .music-section img {
-    margin-top: 5%;
-    border: solid 3px #000;
-    width: 310px;
-    height: 310px;
-}
-
-.music-section img:nth-child(1)::after {
-    margin-top: 7%;
-    margin-left: 4.5%;
-    content:" ";
-    position: absolute;
-    height: 25px;
-    opacity: 0.9;
-    left: -2px;
-    right: 20px;
-    z-index: -3;
-    width: 40%;
-    background: #4953f5;;
-
+    /*margin-top: 5%;
+    border: solid 3px #000;*/
+    width: 100%;
+    height: 100%;
 }
 
 #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: #4953f5; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-  }
-  
-  #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
-  }
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #4953f5;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
 
-@media only screen and (min-width: 1919px) {
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+
+.contact-section {
+    margin-top: 15%;
+}
+
+@media only screen and (min-width: 1701px) {
     .hero-section img {
-        margin-top: 10%;
+        margin-top: 1px;
         width: 850px;
         height: 100%;
-        border: solid 5px #000;   
+        border: solid 5px #000;
     }
+
     .hero-text {
-        font-size: 48px
+        font-size: 48px;
+        margin-top: 10%;
+    }
+
+    .hero-text:after {
+        margin-top: -1.9%;
+        margin-left: 47.5%;
+        width: 6.5%;
+    }
+
+}
+
+@media only screen and (max-width: 1700px) {
+    .hero-text:after {
+        margin-top: -3%;
+        margin-left: 47.5%;
+        width: 8%;
+    }
+
+    .hero-text:before {
+        margin-top: 12%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .hero-text:after {
+        margin-top: -3%;
+        margin-left: 47.5%;
+        width: 10%;
+    }
+
+    .hero-text:before {
+        margin-top: 15%;
     }
 }
 
 @media only screen and (max-width: 922px) {
-    .hero-text {
-        margin-top: 40%;
-    }
-    .music-section{
+    .music-section {
         margin-top: 10%;
     }
+
     .hero-section img {
-        display: none;
-    }
-  }
-
-  @media only screen and (max-width: 756px) {
-    .hero-text {
-        margin-top: 55%;
-    }
-
-    .navbar-brand{
         display: block;
     }
+
+    .hero-text:after {
+        margin-top: -3.6%;
+        margin-left: 47.5%;
+        width: 10%;
+    }
+
+    .hero-text:before {
+        margin-top: 17%;
+    }
+}
+
+@media only screen and (max-width: 756px) {
+
+    .navbar-brand {
+        font-size: 15px;
+        letter-spacing: 1.3px;
+        margin-right: -5px;
+        /*display: block;*/
+    }
+
     .navbar {
         background: #fff;
     }
-  }
+
+    .hero-text:after {
+        margin-top: -4.3%;
+        margin-left: 47.5%;
+        width: 13.5%;
+    }
+
+    .hero-text:before {
+        margin-top: 19%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .hero-text:after {
+        margin-top: -8%;
+        margin-left: 43%;
+        width: 24%;
+    }
+
+    .hero-text:before {
+        margin-top: 26%;
+        width: 60%;
+        margin-left: 20%;
+    }
+}

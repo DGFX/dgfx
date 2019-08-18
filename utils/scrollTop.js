@@ -3,10 +3,10 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
     document.getElementById("myBtn").style.display = "block";
-    document.getElementById("navbar").style.backgroundColor = "#5a62ee";
+    //document.getElementById("navbar").style.backgroundColor = "#5a62ee";
   } else {
     document.getElementById("myBtn").style.display = "none";
-    document.getElementById("navbar").style.backgroundColor = "#fff";
+    //document.getElementById("navbar").style.backgroundColor = "#fff";
   }
 }
 
