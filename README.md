@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @DGFX
 - 👀 I’m interested in Web design and Web development
-- 🌱 I’m currently learning React.js
+- 🌱 I’m currently learning JavaScript
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me: fojcik.dominik1@gmail.com
 
