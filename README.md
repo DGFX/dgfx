@@ -1,7 +1,9 @@
 - 👋 Hi, I’m @DGFX
-- 👀 I’m interested in Creative Development
+- 👀 I’m interested in Creative Development & No-code Tools
 - 🌱 I’m currently learning JavaScript
-- 💞️ I’m looking to collaborate on ...
+
+Webflow Showcase: https://webflow.com/@fojcikdominik
+
 - 📫 How to reach me: contact.fojcik@gmail.com
 
 <!---
