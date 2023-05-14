@@ -1,10 +1,8 @@
-- 👋 Hi, I’m @DGFX
-- 👀 I’m interested in Creative Development & No-code Tools
-- 🌱 I’m currently learning JavaScript
+👉 Creative Dev 👈
 
-Webflow Showcase: https://webflow.com/@fojcikdominik
-
-- 📫 How to reach me: contact.fojcik@gmail.com
+🌐 https://fojcikdominik.com/
+🎉 https://webflow.com/@fojcikdominik
+📫 contact.fojcik@gmail.com
 
 <!---
 DGFX/DGFX is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
