@@ -1,6 +1,6 @@
-Calm over chaos.
-Experimental over predictable.
-Learning over consuming.
+/ Calm over chaos.
+/ Experimental over predictable.
+/ Learning over consuming.
 
 - 🌐 https://fojcikdominik.com/
 - 🎉 https://webflow.com/@fojcikdominik
