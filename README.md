@@ -1,7 +1,10 @@
-/ Calm over chaos.
-/ Experimental over predictable.
-/ Learning over consuming.
+# Front-end / Creative Developer from Poland
 
+### Calm over chaos.
+### Experimental over predictable.
+### Learning over consuming.
+
+## Social Media
 - 🌐 https://fojcikdominik.com/
 - 🎉 https://webflow.com/@fojcikdominik
 - 📫 contact.fojcik@gmail.com
