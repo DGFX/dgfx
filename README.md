@@ -1,4 +1,6 @@
-👉 Creative Dev 👈
+Calm over chaos
+experimental over predictable
+learning over consuming
 
 - 🌐 https://fojcikdominik.com/
 - 🎉 https://webflow.com/@fojcikdominik
