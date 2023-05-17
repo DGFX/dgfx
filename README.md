@@ -1,4 +1,4 @@
-# Creative Developer / Software Engineer from Poland
+# Creative Developer / Front-end Engineer
 
 **Calm** over chaos.
 **Experimental** over predictable.
