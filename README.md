@@ -1,8 +1,8 @@
-Creative Developer / Software Engineer from Poland
+# Creative Developer / Software Engineer from Poland
 
-### Calm over chaos.
-### Experimental over predictable.
-### Learning over consuming.
+**Calm** over chaos.
+**Experimental** over predictable.
+**Learning** over consuming.
 
 ## Social Media
 - 🌐 https://fojcikdominik.com/
