@@ -4,8 +4,10 @@
 **Experimental** over predictable.
 **Learning** over consuming.
 
-## Social Media
+Portfolio Website:
 - 🌐 https://fojcikdominik.com/
+
+## Social Media
 - 🎉 https://webflow.com/@fojcikdominik
 - 📫 contact.fojcik@gmail.com
 
