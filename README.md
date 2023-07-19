@@ -1,8 +1,8 @@
 # Creative Developer / Front-end Engineer
 
-**Calm** over chaos.
-**Experimental** over predictable.
-**Learning** over consuming.
+- **Calm** over chaos.
+- **Experimental** over predictable.
+- **Learning** over consuming.
 
 ## Portfolio Website:
 - 🌐 https://fojcikdominik.com/
