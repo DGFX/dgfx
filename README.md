@@ -1,4 +1,4 @@
-# Creative Developer / Front-end Engineer
+# Creative Technologist / Designer
 
 - **Calm** over chaos.
 - **Experimental** over predictable.
